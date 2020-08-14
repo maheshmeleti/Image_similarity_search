@@ -1,0 +1,7 @@
+# for training images
+python3 train.py --path_to_training_dir='dataset'
+
+# for testing and displaying
+python3 predict_and_display.py --path_to_query_image='dataset/10.jpg' --no_of_images_to_display=10
+
+
